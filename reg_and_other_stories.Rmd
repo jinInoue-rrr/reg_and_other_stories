@@ -2,16 +2,213 @@
 title: "regression_and_other_stories"
 author: "inoue jin"
 date: "2023-05-05"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+
+
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## the Goal of this note
+# The Structure of This Book
 
-- 
+## Part1: Fundamentals
+
+### Chapter 1: Overview
+
+Have a sense of the goals and challenges of regression.
+
+### Chapter 2: Data and measurement
+
+Explore data and be aware of issues of measurement and adjustment.
+
+
+
+### Chapter 3: Some basic methods in mathematics and probability
+
+Graph a straight line and know some basic mathematical tools and probability distributions.
+
+
+### Chapter 4: Statistical inference
+
+Understand statistical estimation and uncertainty assessment, along with the problems of hypothesis testing in applied statistics.
+
+
+### Chapter 5: Simulation
+
+Simulate probability models and uncertainty about inferences and predictions.
+
+
+
+## Part 2: Linear regression
+Build linear regression models, use them in real problems, and evaluate their assumptions and fit to data.
+
+
+### Chapter 6: Background on regression modeling
+Distinguish between descriptive and causal interpretations of regression, understanding these in historical context.
+
+### Chapter 7: Linear regression with a single predictor
+Understand and work with simple linear regression with one predictor.
+
+
+### Chapter 8: Fitting regression models
+Gain a conceptual understanding of least squares fitting and be able to perform these fits on the computer.
+
+
+
+### Chapter 9: Prediction an Bayesian inference
+Perform and understand probabilistic prediction and simple Bayesian information aggregation, and be introduced to prior distributions and Bayesian inference.
+
+
+### Chapter 10: Linear regression with multiple predictors
+Build, fit, and understand linear models with multiple predictors.
+
+
+### Chapter 11: Assumptions, diagnostics, and model evaluation
+Understand the relative importance of different assumptions of regression models and be able to check models and evaluate their fit to data.
+
+
+### Chapter 12: Transformations and regression
+Apply linear regression more effectively by transforming and combining predictors.
+
+
+## Part 3: Generalized linear models
+Build and work with logistic regression and generalized linear models.
+
+
+### Chapter 13: Logistic regression
+Fit, understand, and display logistic regression models for binary data.
+
+
+### Chapter 14: Working with logistic regression
+Build, understand, and evalute logistic regressions with interactions and other complexities.
+
+
+### Chapter 15: Other generalized linear models
+Fit, understand, and display generalized linear models, including the Poisson and negative binomial regression, ordered logistic regression, and other models.
+
+
+## Part 4: Before and after fitting a regression
+Design studies and use data more effectively in applied settings.
+
+
+### Chapter 16: Design and  sample size decisions
+Use probability theory and simulation to guide data-collection decisions, without falling into the trap of demanding unrealistic levels of certainty.
+
+
+### Chapter 17: Poststratification and missing-data imputation
+Use poststratification to generalize from sample to population, and use regression models to impute missing data.
+
+
+## Part 5: Causal inference
+Implement and understand basic statistical designs and analyses for causal inference.
+
+### Chapter 18: Causal inference and randomized experiments
+Understand assumptions underlying causal inference with a focus on randomized experiments.
+
+
+### Chapter 19: Causal inference using regression on the treatment variable
+Perform causal inference in simple settings using regressions to estimate treatment effects and interactions.
+
+
+### Chapter 20: Observational studies with all confounders assumed to be measured
+Understand the challenges of causal inference from observational data and statistical tools for adjusting for differences between treatment and control groups.
+
+
+### Chapter 21: Additional topics in causal inference
+Understand the assumptions underlying more advanced methods that use auxiliary variables or particular data structures to identify causal effects, and be able to fit these models to data.
+
+
+## Part 6: What comes next?
+Become aware of more advanced regression models.
+
+### Chapter 22: Advanced regression and multilevel models
+Get a sense of the directions in which linear and generalized linear models can be extended to attack various classes of applied problems.
+
+## Appendixes
+
+### Appendix A: Computing in R
+Get started in the statistical software R, with a focus on data manipulation, statistical graphics, and fitting and using regressions.
+
+
+### Appendix B: 10 quick tips to improve your regression modeling
+Become aware of some important ideas in regression workflow.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
